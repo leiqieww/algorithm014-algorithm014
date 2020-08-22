@@ -25,5 +25,5 @@ class Solution:
                 return d[target - nums[i]], i
             else:
                 d[nums[i]] = i
-        return [-1, -1]
+
 # leetcode submit region end(Prohibit modification and deletion)
